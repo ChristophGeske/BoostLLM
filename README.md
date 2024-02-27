@@ -11,20 +11,29 @@ Fine-Tuning would be nice for some use cases as well, but is not possible with t
 
 # List of Strategies to Improve the Performance
 
-## Input
+## Prompt Engeneering
 
-### Prompt Engeneering
+Level - Very Simple
+Expected Improvements - between ??% and ??%
+Costs - Non 
+Pros:
+- simple
+- easy to change by everyone
+Cons:
+- reduces Input tokens number. Less important with ever growing context lengths.
 
-## Output
+## Use Multiple LLMs
 
-### Agents
-
-## Other
-
-#### Use Multiple LLMs
+Level - Very Simple
 
 You can simply use Gemini and GPT-4 in paralle. The script sends the prompt to booth models and displays the outputs next to each other.
 
+
+
+## Agents
+
+Level - Very Hart
+Expected Improvements - between ??% and ??%
 
 # List of Papers
 
