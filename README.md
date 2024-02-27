@@ -10,6 +10,8 @@ The idea is to uss this LLM Booster as if it where the GPT-4 or Gemini API. It s
 
 Fine-Tuning would be nice for some use cases as well, but is not possible with these close source state of the art LLMs.
 
+Bing Copilot is also using GPT-4 but seems not to offer an official API (TODO: Find an inofficial API). It would be a great solution for users wanting to try out this Boosters abilities for free.
+
 # List of Strategies to Improve the Performance
 
 ## Prompt Engeneering
