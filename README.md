@@ -42,5 +42,8 @@ You can simply use Gemini and GPT-4 in paralle. The script sends the prompt to b
 Expected Improvements - between ??% and ??%
 
 
+# Getting started
+
+halloOpenAI.py is the simplest possible project that returns the respons of the API to a hard coded prompt.
 
 
