@@ -6,12 +6,12 @@ Whats missing is a list of all these papers and corresponding implementations wi
 
 The Idea would be to build your application not directly around the GPT-4 or Gemini API but around this LLMsBooster which acesses the same APIs in an optimized way and also improves the outputs which you then use for your application.
 
-### List of Strategies to Improve the Performance
+# List of Strategies to Improve the Performance
 
 ## Input
 
-# Prompt Engeneering
+### Prompt Engeneering
 
 ## Output
 
-# Agents
+### Agents
