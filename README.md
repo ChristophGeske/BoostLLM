@@ -1,4 +1,5 @@
 # LLMsBooster
+
 GPT-4 and Gemini are the best Large Language Models out there today with similar performance in benschmarks.
 
 However lots of research goes into how to improve them further.
@@ -11,25 +12,29 @@ Fine-Tuning would be nice for some use cases as well, but is not possible with t
 
 OpenAI and Google always add new features like "Memory", "Instructions", ... which help to improve the results and we will use them if possible. 
 
+
 # List of Strategies to Improve the Performance
 
 ## Prompt Engeneering
 
 Expected Improvements - between ??% and ??%
+
 Costs - Non 
+
 Pros:
-- simple
 - easy to change by everyone
+
 Cons:
-- reduces Input tokens number. Less important with ever growing context lengths.
-Level - Very Simple
+- reduces Input token number. Less important with ever growing context lengths.
+
 
 Sources:
+
 ChatGPT Prompt Engineering for Developers by deeplearning.ai - https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 
 ## Use Multiple LLMs
 
-Level - Very Simple
+Expected Improvements - between ??% and ??%
 
 You can simply use Gemini and GPT-4 in paralle. The script sends the prompt to booth models and displays the outputs next to each other.
 
@@ -37,10 +42,8 @@ You can simply use Gemini and GPT-4 in paralle. The script sends the prompt to b
 
 ## Agents
 
-Level - Very Hart
 Expected Improvements - between ??% and ??%
 
-# List of Papers
 
 
 
