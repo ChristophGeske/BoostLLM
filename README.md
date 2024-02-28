@@ -33,9 +33,20 @@ ChatGPT Prompt Engineering for Developers by deeplearning.ai - https://learn.dee
 
 ## Use Multiple LLMs
 
+### Use LLMs of differnt providers
+
 Expected Improvements - between ??% and ??%
 
-You can simply use Gemini and GPT-4 in paralle. The script sends the prompt to booth models and displays the outputs next to each other.
+You can simply use Gemini, GPT-4 or smaller models in parallel. The script sends the prompt to booth models and displays the outputs next to each other.
+
+## Repetition and Ourput Analysis
+
+Expected Improvements - between ??% and ??%
+
+Multiple instances work on the same task in parallel. The reults are then analysed by:
+
+- Consensus: Mayority vote helps find the most likely correct solution.
+- filtering: Wrong results are removed. One way is by using another LLM to check the results or statistical methods that are able to find errors. theses Statistical methods could be eritten ion python by another LLM making it possible to use the correct statistical methods for the specific output to filter.
 
 
 
