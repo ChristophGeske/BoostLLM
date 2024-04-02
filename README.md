@@ -1,24 +1,30 @@
 # LLMsBooster
 
-GPT-4 and Gemini are the best Large Language Models out there today with similar performance in benschmarks.
+The idea of this project is to improve the performance of large language models (LLMs) using the latest strategies researchers came up with.
 
-However lots of research goes into how to improve them further.
+The amount of papers claiming massive improvements in LLM performance is long.
 
-What's missing is a list of all these papers and corresponding implementations with simple toggles to activate them and see if they truely improve the results in your projects.
-
-The idea is to uss this LLM Booster as if it where the GPT-4 or Gemini API. It should work the same it takes in a prompt and returns an output message. Since OpenAI and Google always add new features like "Memory", "Instructions", ... which help to improve the results they should also still be acessible.
-
-Fine-Tuning would be nice for some use cases as well, but is not possible with these close source state of the art LLMs.
-
-Bing Copilot is also using GPT-4 but seems not to offer an official API (TODO: Find an inofficial API). It would be a great solution for users wanting to try out this Boosters abilities for free.
+What's missing is a list of all these papers and corresponding implementations with a simple toggles to activate each of them separately or in combination so we can check if they consistently improve the results of our models in our own projects.
 
 # List of Strategies to Improve the Performance
 
-## Prompt Engeneering
+## Fine-Tuning
+
+A promising strategy to improve an LLM for your use case but because of cost and resource requirements not the first step one should do when looking for performance improvements.
+
+We will not cover fine tuning in this project because we only want to look at the strategies which do not change the underlying language model.
+
+However here are some important thoughts you should consider before using fine tuning:
+- The training set should not just contain the new data you want the model to improve but should also contain the old data so it doesn’t unlearn the old capabilities(TODO add source)
+- Smaller Models benefit much more from fine tuning compared to bigger models.
+- Fine Tuning is especially great if you have a special task GPT-4 can solve already and you want to distil the capabilities of GPT-4 into a smaller, faster, cheaper model.
+- When using fine Tuning to improve small models with synthetic data created by larger models it makes sense to first improve the answers of the larger model with all the other strategies we discuss in this project.
+
+## Prompt Engineering
 
 Expected Improvements - between ??% and ??%
 
-Costs - Non 
+Costs - Non
 
 Pros:
 - easy to change by everyone
@@ -33,20 +39,20 @@ ChatGPT Prompt Engineering for Developers by deeplearning.ai - https://learn.dee
 
 ## Use Multiple LLMs
 
-### Use LLMs of differnt providers
+### Use LLMs of different providers
 
 Expected Improvements - between ??% and ??%
 
 You can simply use Gemini, GPT-4 or smaller models in parallel. The script sends the prompt to booth models and displays the outputs next to each other.
 
-## Repetition and Ourput Analysis
+## Repetition and Output Analysis
 
 Expected Improvements - between ??% and ??%
 
-Multiple instances work on the same task in parallel. The reults are then analysed by:
+Multiple instances work on the same task in parallel. The results are then analysed by:
 
-- Consensus: Mayority vote helps find the most likely correct solution.
-- filtering: Wrong results are removed. One way is by using another LLM to check the results or statistical methods that are able to find errors. theses Statistical methods could be eritten ion python by another LLM making it possible to use the correct statistical methods for the specific output to filter.
+- Consensus: Majority vote helps find the most likely correct solution.
+- filtering: Wrong results are removed. One way is by using another LLM to check the results or statistical methods that are able to find errors. these Statistical methods could be written in python by another LLM making it possible to use the correct statistical methods for the specific output to filter.
 
 
 
@@ -57,6 +63,11 @@ Expected Improvements - between ??% and ??%
 
 # Getting started
 
-halloOpenAI.py is the simplest possible project that returns the respons of the API to a hard coded prompt.
+I use LMStudio as my model API, because it is free, easy to install, offers many open source models and has an API that works flawlessly in combination with my code project.
 
+You should not start with OpenAI or Google Gemini APIs directly when there are these free options available. LMStudio saves you money and is faster, especially in the beginning and testing phase this is very helpful.
+From time to time you should switch to the more powerful APIs though to check if they perform as expected.
 
+For programming I use PyCharm Professional with the Copilot and CopilotChat Plugin. The CopilotChat Plugin is a GPT-4 based Assistent with direct access to the code files in my project. This is very helpful when programing and you don't need to copy and past the code into a chat window. I highly recommend the Github Copilot. I use it for free via my Github student subscription. If you are not a student and don't have access to GPT-4 jet the second best option is Microsoft Copilot in the browser which is also based on GPT-4 and free to use.
+
+helloLMStudio.py is the simplest possible project that returns the response of the API to a hard coded prompt.
