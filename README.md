@@ -10,12 +10,12 @@ What's missing is a list of all these papers and corresponding implementations w
 
 I use LMStudio as my model API, because it is free, easy to install, offers many open source models and has an API that works flawlessly in combination with my code project.
 
-You should not start with OpenAI or Google Gemini APIs directly when there are these free options available. LMStudio saves you money and is faster, especially in the beginning and testing phase this is very helpful.
-From time to time you should switch to the more powerful APIs though to check if they perform as expected.
+You should not start with OpenAI's or Google Gemini's paied APIs when there are all these free options available to play around with. 
+From time to time you could switch to the more powerful APIs though to check if your software works with them as expected.
 
-For programming I use PyCharm Professional with the Copilot and CopilotChat Plugin. The CopilotChat Plugin is a GPT-4 based Assistent with direct access to the code files in my project. This is very helpful when programing and you don't need to copy and past the code into a chat window. I highly recommend the Github Copilot. I use it for free via my Github student subscription. If you are not a student and don't have access to GPT-4 jet the second best option is Microsoft Copilot in the browser which is also based on GPT-4 and free to use.
+For programming I use PyCharm (Professional 2023.2.5) with the Copilot and CopilotChat Plugin enabled. The CopilotChat Plugin is a GPT-4 based assistent with direct access to the code files in my project. This is very helpful when programing and you don't need to copy and past the code into ChatGPT. I highly recommend the Github Copilot Chat. I use it for free via my Github student subscription. If you are not a student and don't have access to GPT-4 jet the second best option is Microsoft Copilot in the browser which is also based on GPT-4 and free to use.
 
-helloLMStudio.py is the simplest possible project that returns the response of the API to a hard coded prompt.
+helloLMStudio.py is the simplest possible project that returns the response of the API to a user prompt/question typed in the terminal.
 
 # List of Strategies to Improve the Performance
 
