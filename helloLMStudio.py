@@ -6,28 +6,25 @@ from openai import OpenAI
 # the api_key
 client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 
+# Define the model variable with the model ID.
+modelID = "bartowski/Starling-LM-7B-beta-GGUF/Starling-LM-7B-beta-IQ4_XS.gguf"
 
 # Display the initial message for the user in the terminal.
-print("I am a small LLM ask me anything.")
+print("Bot: What's your question to the LLM with ID: " + modelID + "?")
 
 # The history is a list of messages that have been exchanged between the user and the assistant.
-history = []
-'''
-    [{"role": "system",
-     "content": "You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful. You are probably not GPT-4 but rather a smaller open source model."},
-    {"role": "user",
-     "content": "Hallo, How are you?"},]
-'''
+history =[{"role": "system", "content": "You are an intelligent assistant who provides helpful answers."},]
+
 # While Loop: Keeps the chat session active, allowing for continuous interaction.
 while True:
     # Get the user's first message and add it to the history.
-    user_input = input("> ")
+    user_input = input("You: ")
     history.append({"role": "user", "content": user_input})
 
     # Request a chat completion from the local server using the chat history.
     completion = client.chat.completions.create(
         # Here your need to ad your model ID You find it in the LMStudio.
-        model="bartowski/Starling-LM-7B-beta-GGUF/Starling-LM-7B-beta-IQ4_XS.gguf",
+        model=modelID,
         # The message is always the complete chat history. That is the simplest way short term memory can be implemented.
         messages=history,
         # Temperature controls the randomness values closer to 0 makes the responses predictable and conservative.
