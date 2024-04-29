@@ -26,7 +26,7 @@ For programming I use PyCharm (Professional 2023.2.5) with the Copilot and Copil
 ### helloLMStudio.py 
 This is the simplest possible project. A Chat with the model in the terminal of your IDE. 
 
-## Two_Agent_System
+## Two_Agent_Project
 
 ### twoAgents.py
 This is the simplest possible 2 agent project. Have a chat with agent 1 and in the background agent 2 analyses the mood of conversation and prints it in the chat. 
@@ -45,7 +45,7 @@ Pros:
 Cons:
 - Non
 
-
+In the twoAgents.py
 
 Sources:
 
