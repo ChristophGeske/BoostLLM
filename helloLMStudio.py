@@ -7,25 +7,30 @@ from openai import OpenAI
 client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 
 # Define the model variable with the model ID.
-modelID = "bartowski/Starling-LM-7B-beta-GGUF/Starling-LM-7B-beta-IQ4_XS.gguf"
+#TODO: Replace the modelID with the one you see in LMStudio under local server.
+modelID = "QuantFactory/Meta-Llama-3-8B-Instruct-GGUF"
 
-# Display the initial message for the user in the terminal.
-print("Bot: What's your question to the LLM with ID: " + modelID + "?")
+# The history will be constantly updated. It is a list of messages that have been exchanged between the user and the assistant.
+# The very first message in the history is the system prompt.
+history =[{"role": "system",
+           "content":
+               '''You are an intelligent assistant who provides helpful answers.'''
+           },]
 
-# The history is a list of messages that have been exchanged between the user and the assistant.
-history =[{"role": "system", "content": "You are an intelligent assistant who provides helpful answers."},]
+# Display the initial message for the user in the terminal. With a new line break after System
+print("System: \nYou can now talk to the assistant with model name " + modelID + " and ask anything.")
+# Get the user's first message and add it to the history.
+print("User:")
+user_input = input("")
+history.append({"role": "user", "content": user_input})
+
 
 # While Loop: Keeps the chat session active, allowing for continuous interaction.
 while True:
-    # Get the user's first message and add it to the history.
-    user_input = input("You: ")
-    history.append({"role": "user", "content": user_input})
-
     # Request a chat completion from the local server using the chat history.
     completion = client.chat.completions.create(
-        # Here your need to ad your model ID You find it in the LMStudio.
         model=modelID,
-        # The message is always the complete chat history. That is the simplest way short term memory can be implemented.
+        # The message is always the complete chat history. The complete history is the memory of the LLM.
         messages=history,
         # Temperature controls the randomness values closer to 0 makes the responses predictable and conservative.
         # Values closer to 1 allow for more varied and creative outputs.
@@ -39,6 +44,8 @@ while True:
     # A dictionary is created with two keys: role and content. The role is set to "assistant", indicating that this message will be from the assistant.
     # The content is initially an empty string, which will be filled with the assistant’s response.
     new_message = {"role": "assistant", "content": ""}
+
+    print("Assistant: ")
     # When streaming is enabled, response is sent back in chunks (pieces)
     for chunk in completion:
         # The choices-array contains the different completions that the model could generate.
@@ -61,8 +68,9 @@ while True:
     # After processing all chunks, the new_message dictionary, which now contains the complete response from the assistant, is appended to the history list.
     history.append(new_message)
 
-    print()
+    print("\nUser:")
     # Catches user’s next message and appends it to the chat history.
     # When the input() function is called, Python will pause and wait for the user to enter some text and press Enter
     # before continuing; therefore, the while loop is not constantly requiring resources.
-# history.append({"role": "user", "content": input("> ")})
+    # The model then takes the complete chat history and generates a response looking at the very end which contains the new User input, which probaly is a question or command.
+    history.append({"role": "user", "content": input("")})
