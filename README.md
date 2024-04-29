@@ -19,8 +19,17 @@ From time to time you could switch to the more powerful APIs though to check if 
 ### PyCharm IDE with Copilot Plugin
 For programming I use PyCharm (Professional 2023.2.5) with the Copilot and CopilotChat Plugin enabled. The CopilotChat Plugin is a GPT-4 based assistent with direct access to the code files in my project. This is very helpful when programing and you don't need to copy and past the code into ChatGPT. I highly recommend the Github Copilot Chat. I use it for free via my Github student subscription. If you are not a student and don't have access to GPT-4 jet the second best option is Microsoft Copilot in the Edge browser which is also based on GPT-4 and free to use.
 
-## helloLMStudio.py 
+# Available Projects
+
+## Getting_Started_Project
+
+### helloLMStudio.py 
 This is the simplest possible project. A Chat with the model in the terminal of your IDE. 
+
+## Two_Agent_Project
+
+### twoAgents.py
+This is the simplest possible 2 agent project. Have a chat with agent 1 and in the background agent 2 analyses the mood of conversation and prints it in the chat. 
 
 # List of Strategies to Improve the Performance
 
@@ -31,11 +40,12 @@ Expected Improvements - between ??% and ??%
 Costs - Non
 
 Pros:
-- easy to change by everyone
+- easy to change
 
 Cons:
-- reduces Input token number. Less important with ever growing context lengths.
+- Non
 
+In the twoAgents.py
 
 Sources:
 
