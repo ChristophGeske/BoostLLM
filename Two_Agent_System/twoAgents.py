@@ -19,7 +19,7 @@ chatHistory.append({"role": "user", "content": user_input})
 
 while True:
 
-    ##################### First Agent #####################
+    ##################### First Agent (User Assistent) #####################
 
     completion = client.chat.completions.create(
         model=modelID,
@@ -38,7 +38,7 @@ while True:
 
     chatHistory.append(new_message)
 
-    ##################### Second Agent #####################
+    ##################### Second Agent (Analyser) #####################
 
     # Create a new completion request for the second agent with the prompt "Analyse the conversation and describe its mood_message in one word."
     completion = client.chat.completions.create(
@@ -63,7 +63,7 @@ while True:
         mood_message = "Mood analysis failed"
     print(mood_message, end="", flush=True)
 
-    # chatHistory is not appended with the mood_message message we used for analysis only. After each exchange the whole chatHistory is analysed again. But the analysation should nor be part of the conversation.
+    # chatHistory is not appended with the mood_message because it is used for analysis only. After each exchange the whole chatHistory is analysed again and the first analysis is forgotten. But the analysation should nor be part of the conversation.
 
     ##################### User Input #####################
 

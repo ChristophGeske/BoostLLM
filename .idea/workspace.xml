@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88a1ff7-6149-432e-9287-85a7c0c3b4be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Two_Agent_System/twoAgents.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Getting_Started_Project/helloLMStudio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Getting_Started_Project/helloLMStudio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two_Agent_System/twoAgents.py" beforeDir="false" afterPath="$PROJECT_DIR$/Two_Agent_System/twoAgents.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +219,7 @@
       <workItem from="1712265339685" duration="3511000" />
       <workItem from="1714082655379" duration="736000" />
       <workItem from="1714214793255" duration="1229000" />
-      <workItem from="1714352204957" duration="11801000" />
+      <workItem from="1714352204957" duration="12324000" />
     </task>
     <servers />
   </component>
