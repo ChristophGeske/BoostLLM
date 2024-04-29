@@ -29,7 +29,7 @@ This is the simplest possible project. A Chat with the model in the terminal of 
 ## Two_Agent_Project
 
 ### twoAgents.py
-This is the simplest possible 2 agent project. Have a chat with agent 1 and in the background agent 2 analyses the mood of conversation and prints it in the chat. 
+This is the simplest possible 2 agent project. Have a chat with agent 1 and in the background agent 2 analyses the mood of the conversation and prints it's analysis in the chat. 
 
 # List of Strategies to Improve the Performance
 
@@ -45,7 +45,7 @@ Pros:
 Cons:
 - Non
 
-In the twoAgents.py
+In the twoAgents.py we see the need for prompt engeneering. There the second agent should only reply with one word describing the mood but without prompt engeneering it doesn't always follows the command and gives too long answears.
 
 Sources:
 
