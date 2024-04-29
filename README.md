@@ -1,6 +1,6 @@
 # LLMsBooster
 
-The idea of this project is to improve the performance of large language models (LLMs) using the latest strategies researchers came up with.
+The idea of this project is to improve the performance of large language models (LLMs) using differnt strategies and allow users to switch strategies on and off.
 
 The amount of papers claiming massive improvements in LLM performance is long.
 
@@ -8,14 +8,19 @@ What's missing is a list of all these papers and corresponding implementations w
 
 # Getting started
 
-I use LMStudio as my model API, because it is free, easy to install, offers many open source models and has an API that works flawlessly in combination with my code project.
+## Software I am using
 
-You should not start with OpenAI's or Google Gemini's paied APIs when there are all these free options available to play around with. 
+### LMStudio
+I use LMStudio to download model a model and as an API, because it is free, easy to install, offers many open source models and has an API that works flawlessly in combination with my code project.
+
+You should not start with OpenAI's or Google Gemini's payed APIs when there are all these free options available to play around with. 
 From time to time you could switch to the more powerful APIs though to check if your software works with them as expected.
 
-For programming I use PyCharm (Professional 2023.2.5) with the Copilot and CopilotChat Plugin enabled. The CopilotChat Plugin is a GPT-4 based assistent with direct access to the code files in my project. This is very helpful when programing and you don't need to copy and past the code into ChatGPT. I highly recommend the Github Copilot Chat. I use it for free via my Github student subscription. If you are not a student and don't have access to GPT-4 jet the second best option is Microsoft Copilot in the browser which is also based on GPT-4 and free to use.
+### PyCharm IDE with Copilot Plugin
+For programming I use PyCharm (Professional 2023.2.5) with the Copilot and CopilotChat Plugin enabled. The CopilotChat Plugin is a GPT-4 based assistent with direct access to the code files in my project. This is very helpful when programing and you don't need to copy and past the code into ChatGPT. I highly recommend the Github Copilot Chat. I use it for free via my Github student subscription. If you are not a student and don't have access to GPT-4 jet the second best option is Microsoft Copilot in the Edge browser which is also based on GPT-4 and free to use.
 
-helloLMStudio.py is the simplest possible project that returns the response of the API to a user prompt/question typed in the terminal.
+## helloLMStudio.py 
+This is the simplest possible project. A Chat with the model in the terminal of your IDE. 
 
 # List of Strategies to Improve the Performance
 
