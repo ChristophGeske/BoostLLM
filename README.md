@@ -24,7 +24,7 @@ For programming I use PyCharm (Professional 2023.2.5) with the Copilot and Copil
 ## Getting_Started_Project 👶
 
 ### helloLMStudio.py 
-This is the simplest possible project. A Chat with the model in the terminal of your IDE. 
+This is the simplest possible project. A basic chat with the model in the terminal of your IDE. 
 
 ## Two_Agent_Project 🦾🤖 🦾🤖
 
