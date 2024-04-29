@@ -45,7 +45,7 @@ Pros:
 Cons:
 - Non
 
-In the twoAgents.py we see the need for prompt engeneering. There the second agent should only reply with one word describing the mood but without prompt engeneering it doesn't always follows the command and gives too long answears.
+In the twoAgents.py we see the need for prompt engeneering already. There the second agent which task it is to analyse the conversation should only reply with one word that describes the mood of the conversation. Without good prompt engeneering it doesn't always follows the command and e.g. gives answears that are too long.
 
 Sources:
 
