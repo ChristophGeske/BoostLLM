@@ -6,7 +6,7 @@ The amount of papers claiming massive improvements in LLM performance is long.
 
 What's missing is a list of all these papers and corresponding implementations with a simple toggles to activate each of them separately or in combination so we can check if they consistently improve the results of our models in our own projects.
 
-# Getting started
+# Getting started 
 
 ## Software I am using
 
@@ -21,12 +21,12 @@ For programming I use PyCharm (Professional 2023.2.5) with the Copilot and Copil
 
 # Available Projects
 
-## Getting_Started_Project
+## Getting_Started_Project 👶
 
 ### helloLMStudio.py 
 This is the simplest possible project. A Chat with the model in the terminal of your IDE. 
 
-## Two_Agent_Project
+## Two_Agent_Project 🦾🤖 🦾🤖
 
 ### twoAgents.py
 This is the simplest possible 2 agent project. Have a chat with agent 1 and in the background agent 2 analyses the mood of the conversation and prints it's analysis in the chat. 
