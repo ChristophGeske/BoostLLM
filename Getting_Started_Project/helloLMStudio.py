@@ -1,3 +1,5 @@
+# TODO Do a "pip install openai" (without the "") in the terminal to install the OpenAI Python package otherwise the import will not work.
+
 # Requests and responses follow OpenAI's API format but are sent to a local server and have nothing to do with OpenAI's servers.
 from openai import OpenAI
 
