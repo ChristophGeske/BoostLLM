@@ -268,7 +268,7 @@
       <workItem from="1715013429265" duration="22000" />
       <workItem from="1715013457859" duration="92000" />
       <workItem from="1715013559747" duration="645000" />
-      <workItem from="1715075693817" duration="21498000" />
+      <workItem from="1715075693817" duration="26255000" />
     </task>
     <servers />
   </component>
@@ -283,7 +283,7 @@
     <SUITE FILE_PATH="coverage/LLMsBooster$helloLMStudio__1_.coverage" NAME="helloLMStudio (1) Coverage Results" MODIFIED="1714356005161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Getting_Started_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$twoAgents.coverage" NAME="twoAgents Coverage Results" MODIFIED="1714363783324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two_Agent_System" />
     <SUITE FILE_PATH="coverage/LLMsBooster$helloLMStudio.coverage" NAME="helloLMStudio Coverage Results" MODIFIED="1714355950148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LLMsBooster$twoAgents__1_.coverage" NAME="twoAgents (1) Coverage Results" MODIFIED="1715178954442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two_Agent_Project" />
+    <SUITE FILE_PATH="coverage/LLMsBooster$twoAgents__1_.coverage" NAME="twoAgents (1) Coverage Results" MODIFIED="1715369947869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two_Agent_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$helloGemini.coverage" NAME="helloGemini Coverage Results" MODIFIED="1711754259869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
