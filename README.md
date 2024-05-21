@@ -26,10 +26,33 @@ For programming I use PyCharm (Professional 2023.2.5) with the Copilot and Copil
 ### helloLMStudio.py 
 This is the simplest possible project. A basic chat with the model in the terminal of your IDE. 
 
-## Two_Agents_Project 🦾🤖 🦾🤖
+## Two_Agents_Project 
 
-### twoAgents.py
+### twoAgents.py 🦾🤖 🦾🤖
 This is the simplest possible 2 agent project. Have a chat with agent 1 and in the background agent 2 analyses the mood of the conversation and prints it's analysis in the chat. 
+
+## Voice_Input_And_TTS_Project
+
+### Text_To_Speech.py ✍🗣️
+A 4 liner for implementing and testing text to speach.
+
+### Voice_To_Text.py 👂✍
+A simplest project to see how speech can be transcribed into text. 
+
+### Realtime_Interactive_Voice_To_Text.py 👂✍
+An extended project that constantly listens to what the user says.
+
+### TODO👂✍-> 🧠 ->✍🗣️
+
+## Code_Interpreter_Project 
+The goal of this module is to create an agent that has the ability to not only see the code itself, but also by running the code learns if the code runs successfully.
+
+### codeInterpreter.py 👨‍💻
+This module simply accepts text which should be python code, runs it and returns the output of the code and if it threw any errors. 
+
+### codingAgent.py 🤖
+Contains the user conversation and assignes the right messages to the agent, the user and the codeInterpreter module.
+
 
 # List of Strategies to Improve the Performance
 
