@@ -1,4 +1,4 @@
-# LLMsBooster
+# LLMBooster
 
 The idea of this project is to improve the performance of large language models (LLMs) using differnt strategies and allow users to switch strategies on and off.
 
