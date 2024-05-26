@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88a1ff7-6149-432e-9287-85a7c0c3b4be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Code_Interpreter_Project/codeInterpreter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Interpreter_Project/codingAgent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Realtime_Interactive_Voice_To_Text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Voice_To_Text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/voices/female.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Self_Evaluation_Project/self_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Self_Evaluation_Project/selfEvaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Interpreter_Project/codingAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Interpreter_Project/codingAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Voice_To_Text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Voice_To_Text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,48 +37,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ChatWithRTX_RAG.executor": "Run",
-    "Python.Interactive_Voice_To_Text.executor": "Run",
-    "Python.Realtime_Interactive_Voice_To_Text (1).executor": "Run",
-    "Python.Realtime_Interactive_Voice_To_Text.executor": "Run",
-    "Python.Text_To_Speech.executor": "Run",
-    "Python.Voice_Interaction.executor": "Run",
-    "Python.Voice_To_Text.executor": "Run",
-    "Python.codeInterpreter.executor": "Run",
-    "Python.codingAgent.executor": "Run",
-    "Python.rtx_api_3_5.executor": "Run",
-    "Python.self_evaluation.executor": "Run",
-    "Python.twoAgents (1).executor": "Run",
-    "Python.twoAgents.executor": "Run",
-    "Python.unofficialOpenAI.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/chris/Downloads/Chat-With-RTX-python-api-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ChatWithRTX_RAG.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Interactive_Voice_To_Text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Realtime_Interactive_Voice_To_Text (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Realtime_Interactive_Voice_To_Text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Text_To_Speech.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Voice_Interaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Voice_To_Text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codeInterpreter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codingAgent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rtx_api_3_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.self_evaluation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.twoAgents (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.twoAgents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unofficialOpenAI.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chris/Downloads/Chat-With-RTX-python-api-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Christoph\Documents\GitHub\LLMsBooster\Two_Agent_System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\OneDrive\Dokumente\GitHub\LLMsBooster\Voice_Input_And_TTS_Project\voices" />
       <recent name="C:\Users\chris\OneDrive\Dokumente\GitHub\LLMsBooster" />
       <recent name="C:\Users\Christoph\Documents\GitHub\LLMsBooster\Getting_Started_Project" />
       <recent name="C:\Users\Christoph\Documents\GitHub\LLMsBooster\HelloWorld-Getting_Started_Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Realtime_Interactive_Voice_To_Text (1)">
+  <component name="RunManager" selected="Python.Text_To_Speech_High_Quality_Slow">
     <configuration name="Realtime_Interactive_Voice_To_Text (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LLMsBooster" />
       <option name="ENV_FILES" value="" />
@@ -104,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Text_To_Speech" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Text_To_Speech_High_Quality_Slow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LLMsBooster" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +117,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\chris\OneDrive\Dokumente\GitHub\LLMsBooster\Voice_Input_And_TTS_Project\Text_To_Speech_High_Quality_Slow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,9 +220,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Text_To_Speech_High_Quality_Slow" />
         <item itemvalue="Python.Realtime_Interactive_Voice_To_Text (1)" />
         <item itemvalue="Python.codingAgent" />
-        <item itemvalue="Python.Text_To_Speech" />
         <item itemvalue="Python.codeInterpreter" />
         <item itemvalue="Python.Voice_To_Text" />
       </list>
@@ -264,6 +263,8 @@
       <workItem from="1715651904369" duration="3592000" />
       <workItem from="1716216938738" duration="123000" />
       <workItem from="1716217074124" duration="19885000" />
+      <workItem from="1716275445645" duration="2998000" />
+      <workItem from="1716754044606" duration="4004000" />
     </task>
     <servers />
   </component>
@@ -271,7 +272,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LLMsBooster$Text_To_Speech.coverage" NAME="Text_To_Speech Coverage Results" MODIFIED="1716243945598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
+    <SUITE FILE_PATH="coverage/LLMsBooster$Text_To_Speech.coverage" NAME="Text_To_Speech Coverage Results" MODIFIED="1716758087428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$unofficialOpenAI.coverage" NAME="unofficialOpenAI Coverage Results" MODIFIED="1716226901403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMsBooster$helloNLTK.coverage" NAME="helloNLTK Coverage Results" MODIFIED="1711652355382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMsBooster$codeInterpreter.coverage" NAME="codeInterpreter Coverage Results" MODIFIED="1716243556102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code_Interpreter_Project" />
@@ -289,6 +290,6 @@
     <SUITE FILE_PATH="coverage/LLMsBooster$codingAgent.coverage" NAME="codingAgent Coverage Results" MODIFIED="1716249056178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Code_Interpreter_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$helloLMStudio.coverage" NAME="helloLMStudio Coverage Results" MODIFIED="1714355950148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMsBooster$Interactive_Voice_To_Text.coverage" NAME="Realtime_Interactive_Voice_To_Text Coverage Results" MODIFIED="1716237823002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
-    <SUITE FILE_PATH="coverage/LLMsBooster$Realtime_Interactive_Voice_To_Text__1_.coverage" NAME="Realtime_Interactive_Voice_To_Text (1) Coverage Results" MODIFIED="1716249211571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
+    <SUITE FILE_PATH="coverage/LLMsBooster$Realtime_Interactive_Voice_To_Text__1_.coverage" NAME="Realtime_Interactive_Voice_To_Text (1) Coverage Results" MODIFIED="1716754205310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
   </component>
 </project>
