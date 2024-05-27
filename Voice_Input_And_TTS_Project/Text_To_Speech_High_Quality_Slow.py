@@ -25,7 +25,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # ----- Different TTS implementations and their corresponding times -----
 
 # -- Version 1 || TTS implementation with custom voice provided by the speaker_wav audio file --
-'''
+
 # Initialize TTS with a pre-trained model that expects a speaker_wav audio file
 tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2")
 tts.to(device)
@@ -43,10 +43,10 @@ print(f"Time taken for TTS generation + retraining the voice: {end_time - start_
 # Load and play the audio file
 audio = AudioSegment.from_wav("output1.wav")
 play(audio)
-'''
+
 
 # -- Version 2 || TTS implementation with a fixed high quality voice running much faster. --
-'''
+
 start_time = time.time()
 tts = TTS("tts_models/en/ljspeech/tacotron2-DDC")
 tts.to(device)
@@ -77,7 +77,7 @@ print(f"Time taken for Short Word TTS generation: {end_time - start_time} second
 
 audio = AudioSegment.from_wav("output3.wav")
 play(audio)
-'''
+
 # -- Version 4 || Very long sentence TTS generation for speed comparison
 
 # 11 sec from run to start short text.
