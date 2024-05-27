@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d88a1ff7-6149-432e-9287-85a7c0c3b4be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_High_Quality_SpeedUp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_High_Quality_Slow.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_High_Quality_Slow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_Low_Quality_Fast.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_Low_Quality_Fast.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/output.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/output1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/output2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice_Input_And_TTS_Project/output3.wav" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     "Python.Text_To_Speech.executor": "Run",
     "Python.Text_To_Speech_High_Quality_Slow (1).executor": "Run",
     "Python.Text_To_Speech_High_Quality_Slow.executor": "Run",
+    "Python.Text_To_Speech_High_Quality_SpeedUp.executor": "Run",
     "Python.Text_To_Speech_Low_Quality_Fast.executor": "Run",
     "Python.Text_To_Speech_Using_RealtimeTTS (1).executor": "Run",
     "Python.Text_To_Speech_Using_RealtimeTTS.executor": "Run",
@@ -85,7 +88,7 @@
       <recent name="C:\Users\Christoph\Documents\GitHub\LLMsBooster\HelloWorld-Getting_Started_Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testing">
+  <component name="RunManager" selected="Python.Text_To_Speech_High_Quality_SpeedUp">
     <configuration name="Text_To_Speech_High_Quality_Slow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LLMsBooster" />
       <option name="ENV_FILES" value="" />
@@ -101,6 +104,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_High_Quality_Slow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Text_To_Speech_High_Quality_SpeedUp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LLMsBooster" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_High_Quality_SpeedUp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,29 +173,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Voice_Input_And_TTS_Project/Text_To_Speech_Using_RealtimeTTS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Text_To_Speech_Using_RealtimeTTS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LLMsBooster" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\chris\OneDrive\Dokumente\GitHub\LLMsBooster\Voice_Input_And_TTS_Project\Text_To_Speech_Using_RealtimeTTS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.Text_To_Speech_High_Quality_SpeedUp" />
         <item itemvalue="Python.Text_To_Speech_High_Quality_Slow (1)" />
+        <item itemvalue="Python.testing" />
         <item itemvalue="Python.Text_To_Speech_Low_Quality_Fast" />
         <item itemvalue="Python.Text_To_Speech_Using_RealtimeTTS (1)" />
-        <item itemvalue="Python.Text_To_Speech_Using_RealtimeTTS" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +276,7 @@
       <workItem from="1716754044606" duration="9884000" />
       <workItem from="1716789802520" duration="3639000" />
       <workItem from="1716794143570" duration="690000" />
-      <workItem from="1716794850215" duration="6229000" />
+      <workItem from="1716794850215" duration="10787000" />
     </task>
     <servers />
   </component>
@@ -288,6 +291,7 @@
     <SUITE FILE_PATH="coverage/LLMsBooster$TTS_test_project.coverage" NAME="Text_To_Speech_Using_RealtimeTTS Coverage Results" MODIFIED="1716785583787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$rtx_api_3_5.coverage" NAME="rtx_api_3_5 Coverage Results" MODIFIED="1715436197960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMsBooster$twoAgents.coverage" NAME="twoAgents Coverage Results" MODIFIED="1716226903974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two_Agent_Project" />
+    <SUITE FILE_PATH="coverage/LLMsBooster$Text_To_Speech_High_Quality_SpeedUp.coverage" NAME="Text_To_Speech_High_Quality_SpeedUp Coverage Results" MODIFIED="1716806380549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$twoAgents__1_.coverage" NAME="twoAgents (1) Coverage Results" MODIFIED="1715435883336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two_Agent_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$helloGemini.coverage" NAME="helloGemini Coverage Results" MODIFIED="1711754259869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LLMsBooster$halloOpenAI.coverage" NAME="halloOpenAI Coverage Results" MODIFIED="1711753448453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -300,10 +304,10 @@
     <SUITE FILE_PATH="coverage/LLMsBooster$Interactive_Voice_To_Text.coverage" NAME="Realtime_Interactive_Voice_To_Text Coverage Results" MODIFIED="1716237823002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$Realtime_Interactive_Voice_To_Text__1_.coverage" NAME="Realtime_Interactive_Voice_To_Text (1) Coverage Results" MODIFIED="1716754205310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$unofficialOpenAI.coverage" NAME="unofficialOpenAI Coverage Results" MODIFIED="1716226901403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LLMsBooster$Text_To_Speech_High_Quality_Slow__1_.coverage" NAME="Text_To_Speech_High_Quality_Slow (1) Coverage Results" MODIFIED="1716800970409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
+    <SUITE FILE_PATH="coverage/LLMsBooster$Text_To_Speech_High_Quality_Slow__1_.coverage" NAME="Text_To_Speech_High_Quality_Slow (1) Coverage Results" MODIFIED="1716805354564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$helloLMStudio__1_.coverage" NAME="helloLMStudio (1) Coverage Results" MODIFIED="1714356005161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Getting_Started_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$Voice_To_Text.coverage" NAME="Voice_To_Text Coverage Results" MODIFIED="1716241500700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
-    <SUITE FILE_PATH="coverage/LLMsBooster$testing.coverage" NAME="testing Coverage Results" MODIFIED="1716801698839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
+    <SUITE FILE_PATH="coverage/LLMsBooster$testing.coverage" NAME="testing Coverage Results" MODIFIED="1716801866136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
     <SUITE FILE_PATH="coverage/LLMsBooster$Text_To_Speech_Using_RealtimeTTS__1_.coverage" NAME="Text_To_Speech_Using_RealtimeTTS (1) Coverage Results" MODIFIED="1716800186099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Voice_Input_And_TTS_Project" />
   </component>
 </project>
