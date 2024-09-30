@@ -52,7 +52,7 @@ For development, BoostLLM recommends using PyCharm Professional (version 2023.2.
 - **Enhanced Debugging**: Real-time assistance in identifying and fixing issues.
 - **Accessible AI Tools**: Free access via GitHub Student Subscription. Non-students can use Microsoft Copilot in the Edge browser, also based on GPT-4.
 
-### Available Projects
+### Available Projects (later called modules)
 
 BoostLLM is organized into several projects, each demonstrating different aspects of LLM performance enhancement.
 
@@ -93,7 +93,7 @@ Focuses on creating an agent capable of understanding and executing code, along 
 BoostLLM integrates multiple strategies to enhance LLM performance. Each strategy includes expected improvements, costs, pros, cons, and relevant sources.
 
 ### 1. Prompt Engineering
-- **Expected Improvements**: 10% - 30% (variable based on implementation)
+- **Expected Improvements**: ??% - ??% (variable based on implementation)
 - **Costs**: None
 - **Pros**: 
   - Easy to implement and modify.
@@ -108,7 +108,7 @@ Prompt engineering involves crafting effective prompts to elicit better response
 - ChatGPT Prompt Engineering for Developers by deeplearning.ai
 
 ### 2. Use Multiple LLMs
-- **Expected Improvements**: 15% - 40%
+- **Expected Improvements**: ??% - ??%
 - **Costs**: Computational resources and potential API usage fees.
 
 **Description**:  
@@ -120,7 +120,7 @@ Leverage multiple LLMs from different providers to process the same input and co
 Simultaneously send prompts to models like Gemini, GPT-4, and smaller open-source variants. Display and compare the outputs side-by-side to identify the most accurate or relevant responses.
 
 ### 3. Repetition and Output Analysis
-- **Expected Improvements**: 20% - 50%
+- **Expected Improvements**: ??% - ??%
 - **Costs**: Increased computational requirements.
 
 **Description**:  
@@ -131,14 +131,14 @@ Run multiple instances of the same task in parallel and aggregate the results to
 - **Filtering**: Remove incorrect results using secondary verification, either through another LLM or statistical methods implemented in Python.
 
 ### 4. Agents
-- **Expected Improvements**: 10% - 35%
+- **Expected Improvements**: ??% - ??%
 - **Costs**: Additional development for multi-agent coordination.
 
 **Description**:  
 Implementing specialized agents that handle different aspects of tasks can streamline processes and enhance performance. For example, one agent manages user interactions while another analyzes and provides feedback.
 
 ### 5. Fine-Tuning
-- **Expected Improvements**: 30% - 70%
+- **Expected Improvements**: ??% - ??%
 - **Costs**: High computational resources and data requirements.
 
 **Description**:  
