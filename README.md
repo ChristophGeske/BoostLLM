@@ -1,8 +1,8 @@
 # BoostLLM
 
-BoostLLM is a versatile project aimed at enhancing the performance of Large Language Models (LLMs) through various strategies. It provides users with the flexibility to enable or disable these strategies individually or in combination, allowing for consistent performance improvements tailored to specific projects.
+BoostLLM is a project aimed at enhancing the performance of Large Language Models (LLMs) through various strategies. It aims to provide users with the flexibility to enable or disable different strategies individually or in combination, allowing for consistent performance improvements and comparison of strategies.
 
-While numerous research papers claim significant advancements in LLM performance, there is a lack of centralized resources that list these papers alongside their implementations. BoostLLM bridges this gap by compiling these strategies into an accessible framework, enabling users to test and validate these improvements within their own projects.
+While numerous research papers claim significant advancements in LLM performance, there is a lack of centralized resources that list these papers alongside their implementations and easy comparison. BoostLLM can become such a project implementing these strategies and allowing the seamless combination and evaluation, enabling users to test and validate these improvements within their own projects.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -21,7 +21,7 @@ While numerous research papers claim significant advancements in LLM performance
 
 ## Overview
 
-BoostLLM aims to systematically enhance the capabilities of Large Language Models by integrating a variety of improvement strategies. Users can toggle these strategies on or off to evaluate their effectiveness within their specific applications. By consolidating research-backed methods and providing practical implementations, BoostLLM serves as a valuable tool for developers and researchers seeking to optimize LLM performance without altering the underlying model architecture.
+BoostLLM should serves as a tool for developers and researchers seeking to optimize LLM performance without altering the underlying model architecture. 
 
 ## Getting Started
 
