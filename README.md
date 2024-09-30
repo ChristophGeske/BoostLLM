@@ -155,14 +155,6 @@ Fine-tuning involves training the LLM on a specific dataset to improve its perfo
 
 Contributions are welcome! Whether you're reporting a bug, suggesting a feature, or submitting a pull request, your participation helps improve BoostLLM.
 
-1. Fork the Repository
-2. Create a Feature Branch (`git checkout -b feature/YourFeature`)
-3. Commit Your Changes (`git commit -m 'Add some feature'`)
-4. Push to the Branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
-Please ensure your contributions adhere to the project's coding standards and include relevant tests.
-
 ## License
 
 This project is licensed under the MIT License.
