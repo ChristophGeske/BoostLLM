@@ -1,4 +1,5 @@
 # sounddevice is used for recording audio it stores the audio in a numpy array.
+# In terminal do pip install sounddevice to install the package
 import sounddevice as sd
 import numpy as np
 # whisper for speech recognition and transcription.
